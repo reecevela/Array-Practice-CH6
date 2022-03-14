@@ -40,5 +40,6 @@ class ArrayDemo
            Write("Please enter a valid input.\n");
            break;
        }
-   }  
+     }  
+   }
 }
