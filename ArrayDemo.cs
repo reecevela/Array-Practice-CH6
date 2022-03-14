@@ -24,17 +24,17 @@ class ArrayDemo
            Write("\n");
            break;
          case "2": //Display reverse order
-           for(var i = nums.Length-1; i > 0; --i){
+           for(var i = nums.Length-1; i >= 0; --i){
              Write(nums[i].ToString());
            }
            Write("\n");
            break;
          case "3": //Display a specific value
-           Write("Choose a position between 0 and {0} \n", nums.Length);
+           Write("Choose a position between 0 and {0} \n", nums.Length-1);
            subChoice = ReadLine();
            Write(nums[Convert.ToInt32(subChoice)]+"\n");
            break;
-         case "4": //Cease functioning!
+         case "4": //Cease functioning
            Write("Quitting");
            break;
          default:
