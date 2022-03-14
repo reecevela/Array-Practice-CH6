@@ -32,7 +32,7 @@ class ArrayDemo
          case "3": //Display a specific value
            Write("Choose a position between 0 and {0} \n", nums.Length);
            subChoice = ReadLine();
-           Write(nums[Convert.ToInt32(subChoice)]);
+           Write(nums[Convert.ToInt32(subChoice)]+"\n");
            break;
          case "4": //Cease functioning!
            Write("Quitting");
