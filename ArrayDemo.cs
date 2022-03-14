@@ -19,13 +19,13 @@ class ArrayDemo
        {
          case "1": //Display in order
            for(var i = 0; i < nums.Length; ++i){
-             Write(nums[i].ToString());
+             Write(nums[i].ToString()+" ");
            }
            Write("\n");
            break;
          case "2": //Display reverse order
            for(var i = nums.Length-1; i >= 0; --i){
-             Write(nums[i].ToString());
+             Write(nums[i].ToString()+" ");
            }
            Write("\n");
            break;
@@ -35,12 +35,10 @@ class ArrayDemo
            Write(nums[Convert.ToInt32(subChoice)]+"\n");
            break;
          case "4": //Cease functioning
-           Write("Quitting");
            break;
          default:
-           WriteLine("Please enter a valid input.");
+           Write("Please enter a valid input.\n");
            break;
        }
-      }
    }  
 }
