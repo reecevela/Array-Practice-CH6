@@ -1,9 +1,6 @@
 # Array-Practice-CH6
-This is an assignment from my C# class, just going over some basic uses of Arrays.
 
 Prompt:
-
-Instructions:
 
 Write a program named ArrayDemo that stores an array of 10 integers. (Note that the array is created for you and does not need to be changed.)
 
